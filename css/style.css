@@ -1,0 +1,121 @@
+/* ========== RESET DE BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== BODY & TEXTE ========== */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ========== NAVIGATION ========== */
+nav {
+  background-color: #1e1e1e;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #f7f7f7;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* ========== TITRES ========== */
+h1, h2, h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+
+/* ========== PARAGRAPHES ========== */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* ========== LIENS ========== */
+a {
+  color: #007acc;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========== STYLE NOM ========== */
+span.nom {
+  color: #00bcd4;
+}
+
+/* ========== TYPED + CURSEUR CLIGNOTANT ========== */
+.typed::after {
+  content: "|";
+  animation: blink 1s infinite;
+}
+.intro {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* ========== FOOTER ========== */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  color: #888;
+}
+
+/* ========== RESPONSIVE (Téléphone) ========== */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  body {
+    padding: 15px;
+  }
+}
