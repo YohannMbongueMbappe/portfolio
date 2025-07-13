@@ -9,7 +9,7 @@
 /* ========== BODY & TEXTE ========== */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: url("css/trueblue.png") no-repeat center center fixed;
+  background: url("trueblue.png") no-repeat center center fixed;
   background-size: cover;
   color: #333;
   line-height: 1.6;
