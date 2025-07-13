@@ -7,22 +7,13 @@
 
 /* ========== BODY & TEXTE ========== */
 body {
-  body {
   font-family: "Segoe UI", sans-serif;
-  background-image: url("css/Image_fond.png"); /* Le chemin de l’image */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-
+  background-color: #f7f7f7;
   color: #333;
   line-height: 1.6;
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  backdrop-filter: brightness(1.1); /*  rend le texte plus lisible si l'image est sombre */
-}
-
 }
 
 /* ========== NAVIGATION ========== */
