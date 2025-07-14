@@ -9,20 +9,22 @@
 /* ========== BODY & TEXTE ========== */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: url("trueblue.png") no-repeat center center fixed;
+  
   background-size: cover;
   color: #333;
   line-height: 1.6;
   max-width: 1000px;
   margin: 0 auto;
   padding: 15px;
-   background-color: rgba(255, 255, 255, 0.85); /* blanc translucide */
+   background-color: rgba(238, 238, 229, 0.85); /* blanc translucide */
   border-radius: 10px;
   color: #020000;
   
   backdrop-filter: brightness(1.05); /* ajuste si nécessaire */
 }
-
+header {
+  background-color: #f4e9e9;
+}
 /* ========== NAVIGATION ========== */
 nav {
   background-color: #1e1e1e;
@@ -56,14 +58,14 @@ h1 {
 }
 
 h2 {
-  color: #dacdcd;
+  color: #030000;
   font-size: 1.8rem;
   margin-top: 30px;
 }
 li {}
 /* ========== PARAGRAPHES ========== */
 p {
-  color: #f5f7f8;
+  color: #000101;
   font-size: 16px;
   margin-bottom: 20px;
 }
